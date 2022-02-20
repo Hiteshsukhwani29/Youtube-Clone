@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Youtube-Clone</string>
+    <string name="createvideo">CreateVideo</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="subscription">Subscription</string>
+    <string name="notification">Notification</string>
+    <string name="library">Library</string>
 </resources>
