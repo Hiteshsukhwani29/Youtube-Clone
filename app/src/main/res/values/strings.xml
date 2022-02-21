@@ -10,4 +10,13 @@
     <string name="library">Library</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recent">Recent</string>
+    <string name="history">History</string>
+    <string name="downloads">Downloads</string>
+    <string name="your_videos">Your videos</string>
+    <string name="your_movies">Your movies</string>
+    <string name="watch_later">Watch Later</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="liked_videos">Liked videos</string>
+    <string name="playlists">Playlists</string>
 </resources>

@@ -2,6 +2,9 @@ package com.hitesh.youtube_clone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import android.widget.Toolbar
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -40,4 +43,18 @@ class MainActivity : AppCompatActivity() {
             replace(R.id.fragment_container1, fragment)
             commit()
         }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.toolbar_menu,menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.createvideo -> Toast.makeText(this,"Create Video",Toast.LENGTH_SHORT).show()
+            R.id.search -> Toast.makeText(this,"Search",Toast.LENGTH_SHORT).show()
+            R.id.profile -> Toast.makeText(this,"My Account",Toast.LENGTH_SHORT).show()
+        }
+        return true
+    }
 }
