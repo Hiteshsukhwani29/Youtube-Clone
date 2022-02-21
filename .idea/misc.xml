@@ -5,6 +5,12 @@
       <map>
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/drawable/ic_baseline_createvideo.xml" value="0.1" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_explore.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_home.xml" value="0.152" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_library.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_notifications.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_profile.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_subscriptions.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/menu/bottom_menu.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/menu/toolbar_menu.xml" value="0.11302083333333333" />
       </map>
