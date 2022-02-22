@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/drawable/ic_baseline_createvideo.xml" value="0.1" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/drawable/ic_library.xml" value="0.1295" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/drawable/signin_rounded_btn.xml" value="0.1295" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/dialog_signin.xml" value="0.2128623188405797" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_explore.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_home.xml" value="0.152" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/YoutubeClone/app/src/main/res/layout/fragment_library.xml" value="0.11302083333333333" />

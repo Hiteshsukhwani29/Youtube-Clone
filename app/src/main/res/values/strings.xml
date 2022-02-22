@@ -19,4 +19,6 @@
     <string name="new_playlist">New playlist</string>
     <string name="liked_videos">Liked videos</string>
     <string name="playlists">Playlists</string>
+    <string name="do_more_with_youtube">Do more with Youtube</string>
+    <string name="sign_in_now_to_upload_save_and_comment_on_videos">Sign in now to upload, save and comment on videos</string>
 </resources>
