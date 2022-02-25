@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     val Req_Code: Int = 123
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceStat)
+        super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         auth = FirebaseAuth.getInstance()
@@ -80,25 +80,26 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.createvideo -> Toast.makeText(this, "Create Video", Toast.LENGTH_SHORT).show()
             R.id.search -> Toast.makeText(this, "Search", Toast.LENGTH_SHORT).show()
-            R.id.profile -> if (currentUser.length > 0) {
-                Toast.makeText(this, "User is already logged in", Toast.LENGTH_SHORT).show()
-            } else {
+            R.id.profile -> showDialog()/*if (currentUser.length < 1) {
                 showDialog()
-            }
+            } else {
+                Toast.makeText(this, "User is already logged in", Toast.LENGTH_SHORT).show()
+            }*/
         }
         return true
     }
 
     private fun showDialog() {
         val builder: AlertDialog.Builder = this.let {
-            AlertDialog.Builder(it)
+            AlertDialog.Builder(this)
         }
 
+        Log.d("Working","Working")
         val vg: ViewGroup = findViewById(android.R.id.content)
         val view: View =
             LayoutInflater.from(applicationContext).inflate(R.layout.dialog_signin, vg, false)
 
-        builder.setCancelable(true).setView(view)
+        builder.setCancelable(true).setView(view).show()
         val signinbtn: Button = view.findViewById(R.id.btn_signin)
         signinbtn.setOnClickListener({
             signin()
@@ -125,6 +126,9 @@ class MainActivity : AppCompatActivity() {
                             userinfo.put("name", account?.displayName.toString())
                             userinfo.put("email", account?.email.toString())
                             userinfo.put("profilephoto", account?.photoUrl.toString())
+
+                                userinfo.put("uid", user!!.uid)
+
                             if (user != null) {
                                 userinfo.put("uid", user.uid)
                             }
