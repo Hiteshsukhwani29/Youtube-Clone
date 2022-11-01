@@ -1,4 +1,4 @@
-package com.hitesh.youtube_clone
+package com.hitesh.youtube_clone.ui.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -18,8 +18,13 @@ import com.google.android.gms.tasks.Task
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import com.hitesh.youtube_clone.fragment.*
-import java.util.*
+import com.hitesh.youtube_clone.R
+import com.hitesh.youtube_clone.ui.fragment.*
+import com.hitesh.youtube_clone.ui.fragment.explore.Explore
+import com.hitesh.youtube_clone.ui.fragment.home.Home
+import com.hitesh.youtube_clone.ui.fragment.library.Library
+import com.hitesh.youtube_clone.ui.fragment.notifications.Notifications
+import com.hitesh.youtube_clone.ui.fragment.subscription.Subscriptions
 import kotlin.collections.HashMap
 
 class MainActivity : AppCompatActivity() {
@@ -71,7 +76,7 @@ class MainActivity : AppCompatActivity() {
             commit()
         }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }

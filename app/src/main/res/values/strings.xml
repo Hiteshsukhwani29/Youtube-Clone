@@ -22,5 +22,5 @@
     <string name="do_more_with_youtube">Do more with Youtube</string>
     <string name="sign_in_now_to_upload_save_and_comment_on_videos">Sign in now to upload, save and comment on videos</string>
     <string name="sign_in">Sign In</string>
-<!--    <string name="default_web_client_id">42756806581-j2hdkrrdbt1s4tbl4ptae7j329d7ombh.apps.googleusercontent.com</string>-->
+    <string name="default_web_client_id">42756806581-j2hdkrrdbt1s4tbl4ptae7j329d7ombh.apps.googleusercontent.com</string>
 </resources>
