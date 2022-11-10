@@ -44,7 +44,7 @@
         app:menu="@menu/bottom_menu"
         android:layout_alignParentBottom="true"
         app:itemTextColor="@color/black"
-        app:itemIconTint="@color/black"
+        app:itemIconTint="@drawable/bottom_nav_item_color"
         app:itemRippleColor="@color/cardview_dark_background"
         app:labelVisibilityMode="labeled" />
 
